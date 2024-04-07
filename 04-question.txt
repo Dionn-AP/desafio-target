@@ -1,0 +1,8 @@
+Ligue o primeiro interruptor e deixe-o ligado por um tempo.
+Ligue o segundo interruptor e, em seguida, desligue o primeiro interruptor.
+Entre na sala onde as lâmpadas estão localizadas.
+Agora, aqui estão as possíveis situações e como interpretá-las:
+
+Se a lâmpada estiver acesa, ela está conectada ao interruptor 1.
+Se a lâmpada estiver desligada e ainda estiver quente, ela está conectada ao interruptor 2.
+Se a lâmpada estiver desligada e fria, ela está conectada ao interruptor 3.
