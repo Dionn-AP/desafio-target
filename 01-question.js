@@ -1,12 +1,26 @@
-let indice = 13;
-let soma = 0;
-let k = 0;
+function fibonacci(n) {
+    let fibSeq = [0, 1];
+    let nextNum = fibSeq[fibSeq.length - 1] + fibSeq[fibSeq.length - 2];
 
-while (k < indice) {
-    k = k + 1;
-    soma = soma + k;
+    while (nextNum <= n) {
+        fibSeq.push(nextNum);
+        nextNum = fibSeq[fibSeq.length - 1] + fibSeq[fibSeq.length - 2];
+    }
+
+    return fibSeq;
 }
 
-console.log(soma);
+function pertenceFibonacci(n) {
+    const fibSeq = fibonacci(n);
+    if (fibSeq.includes(n)) {
+        console.log(`O número ${n} pertence à sequência de Fibonacci.`);
+    } else {
+        console.log(`O número ${n} NÃO pertence à sequência de Fibonacci.`);
+    }
+}
+
+const numero = 10;
+pertenceFibonacci(numero);
+
 
 //RESPOSTA:  91

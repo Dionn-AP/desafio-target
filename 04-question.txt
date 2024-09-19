@@ -1,8 +1,17 @@
-Ligue o primeiro interruptor e deixe-o ligado por um tempo.
-Ligue o segundo interruptor e, em seguida, desligue o primeiro interruptor.
-Entre na sala onde as lâmpadas estão localizadas.
-Agora, aqui estão as possíveis situações e como interpretá-las:
+// a) 1, 3, 5, 7, (9)
+// Progressão aritmética com diferença de 2 (números ímpares)
 
-Se a lâmpada estiver acesa, ela está conectada ao interruptor 1.
-Se a lâmpada estiver desligada e ainda estiver quente, ela está conectada ao interruptor 2.
-Se a lâmpada estiver desligada e fria, ela está conectada ao interruptor 3.
+// b) 2, 4, 8, 16, 32, 64, (128)
+// Potências de 2
+
+// c) 0, 1, 4, 9, 16, 25, 36, (49)
+// Quadrados perfeitos (n²)
+
+// d) 4, 16, 36, 64, (100)
+// Quadrados perfeitos (2², 4², 6², 8², 10²)
+
+// e) 1, 1, 2, 3, 5, 8, (13)
+// Sequência de Fibonacci
+
+// f) 2, 10, 12, 16, 17, 18, 19, (20)
+// Sequência baseada em números consecutivos, exceto por 11, 13, 14, e 15

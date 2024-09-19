@@ -1,27 +1,12 @@
-function fibonacci(limit) {
-    let sequence = [0, 1];
-    let i = 2;
-    while (true) {
-        let next = sequence[i - 1] + sequence[i - 2];
-        if (next <= limit) {
-            sequence.push(next);
-            i++;
-        } else {
-            break;
-        }
+function verificaLetraA(s) {
+    const countA = (s.match(/a/gi) || []).length;
+    
+    if (countA > 0) {
+        console.log(`A letra 'a' aparece ${countA} vezes.`);
+    } else {
+        console.log("A letra 'a' não aparece na string.");
     }
-    return sequence;
 }
 
-function isFibonacci(number) {
-    let sequence = fibonacci(number);
-    return sequence.includes(number);
-}
-
-
-const numero = 50;
-if (isFibonacci(numero)) {
-    console.log(numero + " pertence à sequência de Fibonacci.");
-} else {
-    console.log(numero + " não pertence à sequência de Fibonacci.");
-}
+const texto = "oi";
+verificaLetraA(texto);
